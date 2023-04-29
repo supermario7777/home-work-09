@@ -1,0 +1,19 @@
+.medium{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 160px;
+    gap: 752px;
+    width: auto;
+    height: 70px;
+}
+
+.medium p{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: lowercase;
+    color: #000000;
+}
