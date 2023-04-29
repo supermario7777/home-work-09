@@ -7,7 +7,7 @@ class NewsComponent extends React.Component{
         return <div className='news'>
                     <div className="header">
                         <div className="top">
-                            <p className="author">{this.props.author}</p>
+                            <p className="author">author</p>
                             <p className="in">in</p>
                             <p className="topic_name">"Some text"</p>
                             <p className="published_date">published_date</p>
@@ -23,7 +23,7 @@ class NewsComponent extends React.Component{
                         </div>
                     </div>
                     <div className="images">
-                        <img src={this.props.images}/>
+                        <img src="#"/>
                     </div>
                     <div className="border"></div>
                 </div>
