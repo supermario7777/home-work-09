@@ -15,7 +15,7 @@ let articles = [
       theme: "Animals",
       time_over: "15 min",
       select: "selected for you",
-      image: "images/0.png"
+      image: require("./images/0.png")
 
   },
   {
@@ -28,7 +28,7 @@ let articles = [
       theme: "hunters",
       time_over: "25 min",
       select: "selected for miosh",
-      image: "images/1.png"
+      image: require("./images/1.png")
 
   },
   {
@@ -41,7 +41,7 @@ let articles = [
       theme: "Animals",
       time_over: "35 min",
       select: "selected for relon",
-      image: "images/2.png"
+      image: require("./images/2.png")
 
   },
 ];
